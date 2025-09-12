@@ -8,3 +8,7 @@ Un jeu de Pong multijoueur en Python tout simple.
 2. Installer les dépendances :
    ```bash
    pip install pygame
+
+les controlles sont:
+joueur 1=Z,S
+joueur 2=P,L
