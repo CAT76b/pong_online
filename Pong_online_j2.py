@@ -5,7 +5,7 @@ import pickle
 
 #connexion au serveur du joueur 1
 client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client.connect(("83.205.163.6",5555)) #adresse IP du joueur 1
+client.connect(("remplace l'ip par celle de ton ami")) #adresse IP du joueur 1
 
 py.init()
 root = py.display.set_mode((1000,600))
@@ -55,4 +55,5 @@ while True:
 
     root.blit(text.render(text_gagnant,True,joueurs),(300,10))
     py.display.flip()
+
     clock.tick(60)
